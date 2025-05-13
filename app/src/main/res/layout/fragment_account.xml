@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5A9A9">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="16dp"
+        android:drawableEnd="@drawable/baseline_person_add_alt_1_24"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:padding="12dp"
+        android:backgroundTint="#FFD1D1"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Already have an account? Log in"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"/>
+
+</LinearLayout>
